@@ -1,0 +1,41 @@
+_id: req_491ec416bb724ac5b13acd34a864facf
+type: Request
+parentId: wrk_3f7acba60fca4fa1a2fff01afd2dbe97
+modified: 1692321850302
+created: 1692321579775
+url: https://services.rappi.com.br/api/v2/restaurants-integrations-public-api/webhook/PING/add-stores
+name: AdicIonar stores  - PING
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    [
+      {
+        "url": "https://api-integration.delivery.zigcore.com.br/rappi/webhook/ping",
+        "stores": ["900028886"]
+      }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a6fc9b7e0949403e94f9983dbb5a6e03
+  - id: pair_4d811f73ab71423a92020bc5fa91dec5
+    name: x-authorization
+    value: bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Jlc3RzLWludGVncmF0aW9ucy5hdXRoMC5jb20vIiwic3ViIjoiTTZnb3dFZ092VTRhcVBGT0JHZmZNN1Y2RmZKeTB3alNAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vc2VydmljZXMucmFwcGkuY29tLmJyL2FwaS92Mi9yZXN0YXVyYW50cy1pbnRlZ3JhdGlvbnMtcHVibGljLWFwaSIsImlhdCI6MTY5MjI5NTkzOCwiZXhwIjoxNjkyOTAwNzM2LCJhenAiOiJNNmdvd0VnT3ZVNGFxUEZPQkdmZk03VjZGZkp5MHdqUyIsInNjb3BlIjoidXBkYXRlOmF2YWlsYWJpbGl0eV9zdG9yZXMgdXBkYXRlOmF2YWlsYWJpbGl0eV9zdG9yZXNfaXRlbXMgdXBkYXRlOmF2YWlsYWJpbGl0eV9zdG9yZXNfaXRlbXNfcmFwcGkgcmVhZDptZW51X3RoaXJkcGFydHkgdXBkYXRlOm1lbnUgcmVhZDptZW51X3JhcHBpIHVwZGF0ZTpvcmRlcnNfcmVhZHlfZm9yX3BpY2t1cCByZWFkOm1lbnVzX3JhcHBpIHJlYWQ6Y29uZmlnIGNyZWF0ZTpjb25maWcgdXBkYXRlOmNvbmZpZyBkZWxldGU6Y29uZmlnIHJlYWQ6b3JkZXJzIHBpY2t1cDpvcmRlciByZWplY3Q6b3JkZXIgdGFrZTpvcmRlciByZWFkOnN0b3JlcyByZWFkOmFwcF9jbGllbnRzIGNyZWF0ZTphcHBfY2xpZW50cyBkZWxldGU6YXBwX2NsaWVudHMgY3JlYXRlOmFwcF9jbGllbnRzX3N0b3JlcyByZWFkOm9yZGVyX2V2ZW50cyBkZWxldGU6YXBwX2NsaWVudHNfc3RvcmVzIGNyZWF0ZTpjbGllbnRzIHJlYWQ6bWVudV9zdGF0dXNfcmFwcGkgcmVhZDphdmFpbGFiaWxpdHlfc3RvcmVzX2l0ZW1zIHJlYWQ6d2ViaG9vayBjcmVhdGU6d2ViaG9vayB1cGRhdGU6d2ViaG9vayBkZWxldGU6d2ViaG9vayB1cGRhdGU6d2ViaG9va19zZWNyZXQiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.jghakWrhVk_x8fyt7h511b218bYtgfwWNTLw4YedohQ
+    description: ""
+  - id: pair_d2718448f9c2410c891c0fad04e38224
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1674072907549.711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

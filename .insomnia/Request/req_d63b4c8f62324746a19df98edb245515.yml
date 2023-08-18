@@ -1,0 +1,31 @@
+_id: req_d63b4c8f62324746a19df98edb245515
+type: Request
+parentId: wrk_3f7acba60fca4fa1a2fff01afd2dbe97
+modified: 1677597552840
+created: 1674066986847
+url: "{{ _.API_URL_TOKEN }}"
+name: Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "client_id": "{{ _.CLIENT_ID }}",
+      "client_secret": "{{ _.CLIENT_SECRET }}",
+      "audience": "https://services.rappi.com.br/api/v2/restaurants-integrations-public-api",
+      "grant_type": "client_credentials"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674066986847
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

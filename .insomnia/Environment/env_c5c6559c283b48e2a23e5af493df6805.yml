@@ -1,0 +1,20 @@
+_id: env_c5c6559c283b48e2a23e5af493df6805
+type: Environment
+parentId: env_01b2c711c94bf2cbcb8b871e88fc1c77334f19ce
+modified: 1676495312079
+created: 1676484814019
+name: Develop
+data:
+  API_URL_TOKEN: https://rests-integrations-dev.auth0.com/oauth/token
+  API_URL: https://microservices.dev.rappi.com/api/v2/restaurants-integrations-public-api
+  CLIENT_ID: XzZ5a06XyNkncOZs5t5kawg6Q5koiHcb
+  CLIENT_SECRET: AIAnUbb7ArPnXIVbb8bNFiIHAJg9_RmH1YY45ysNXTKohKffCEsMNac7EPxEMnDa
+dataPropertyOrder:
+  "&":
+    - API_URL_TOKEN
+    - API_URL
+    - CLIENT_ID
+    - CLIENT_SECRET
+color: "#36ee11"
+isPrivate: false
+metaSortKey: 1676484814019
